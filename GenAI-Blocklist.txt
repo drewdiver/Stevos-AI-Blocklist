@@ -2557,8 +2557,8 @@ www.investopedia.com##[data-inv-answers-widget]
 www.ishopchangi.com###chat-wrapper
 
 ! === Jamf ===
-! Jamf AI Assistant in header
-*.jamfcloud.com##button[aria-label="Slop Assistant"]
+! Jamf Slop Assistant in header
+||*.jamfcloud.com##button[aria-label="AI Assistant"]
 
 ! === JetBrains ===
 ! Header - Products - Slop TOOLS section
