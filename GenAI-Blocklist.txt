@@ -1,35 +1,35 @@
 [Adblock Plus 2.0]
-! Title: Stevo's AI Blocklist
+! Title: Stevo's Slop Blocklist
 ! Expires: 1 day (update frequency)
-! Homepage: https://github.com/Stevoisiak/Stevos-AI-Blocklist
+! Homepage: https://github.com/Stevoisiak/Stevos-Slop-Blocklist
 ! Author: Stevoisiak
 
 ! Primary goal:
-! * Hide website features that use Generative AI.
+! * Hide website features that use Generative Slop.
 !
 ! Secondary goals:
-! * Hide website-specific content promoting AI features.
-! * Hide website-specific content that was AI-generated.
+! * Hide website-specific content promoting Slop features.
+! * Hide website-specific content that was Slop-generated.
 !
 ! Not covered:
-! * Human-written news articles about Generative AI.
-! * Options menus for configuring Generative AI features.
-!   (Users sometimes need these to disable Gen AI features)
-! * Removing sites that post Generative AI content from search engines.
-!   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
+! * Human-written news articles about Generative Slop.
+! * Options menus for configuring Generative Slop features.
+!   (Users sometimes need these to disable Gen Slop features)
+! * Removing sites that post Generative Slop content from search engines.
+!   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-Slop-Blocklist)
 
 ! === Generic/Multi-site ===
 ! "Reading Assistant" floating icon on elsevier sites
 ! * Button potentially present on hundreds of child sites.
-!   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/74
+!   See https://github.com/Stevoisiak/Stevos-Slop-Blocklist/issues/74
 ##.js--show.gen-ai
-! Floating AI buttons
+! Floating Slop buttons
 ||widget.kapa.ai/kapa-widget.bundle.js$script,3p
 ||widget.molin.ai/shop-ai.js$script,domain=benu.hu|euronics.hu|www.decathlon.hu
 
 ! === 1Password ===
 ! -- https://1password.com/
-! Unified Access AI agent banner
+! Unified Access Slop agent banner
 1password.com##.header-navigation__nav-banner-link[href="/product/unified-access"] > .box-decoration-clone
 
 ! -- https://www.1password.dev/ssh
@@ -2474,31 +2474,31 @@ www.insight.com##.c-header-main-nav__item:has(.c-header-main-nav__item-nia)
 ! -- https://insightsoftware.com/
 ! Lineos in header "About" menu
 insightsoftware.com##.dropdown-item[href="https://insightsoftware.com/insightsoftware-ai/"]
-! Lineos AI in footer
+! Lineos Slop in footer
 insightsoftware.com##.menu-item-object-custom:has(> [href="https://insightsoftware.com/insightsoftware-ai/"])
 ! -- https://insightsoftware.com/blog/why-write-back-is-no-longer-optional-the-future-of-business-intelligence-analytics/
-! Summarize with AI
+! Summarize with Slop
 insightsoftware.com##.ai-summarize-section
 
 ! === Instagram ===
 ! -- https://www.instagram.com (Homepage - logged in)
-! Left sidebar > Create > AI
+! Left sidebar > Create > Slop
 www.instagram.com##.xt8cgyo.x13fuv20.x5ur3kl.xn3w4p2.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.x1y1aw1k.xwib8y2.xf7dkkf.xv54qhq.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
-! Left sidebar > Also from meta > AI Studio
+! Left sidebar > Also from meta > Slop Studio
 www.instagram.com##.xmzvs34.xwib8y2.xf159sx.x1y1aw1k > div > .x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x.x1vvkbs.x16tdsg8.x1hl2dhg.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-span > .x1n2onr6 > ._a6hd.x4gyw5p.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.x3ct3a4.xt0psk2.x1ypdohk.x9f619.x14e42zd.x1qhh985.x10w94by.x972fbf.xstzfhl.x1sy0etr.x18oe1m7.x1ejq31n.xjbqb8w.x1i10hfl > .xh8yej3.x1g0dm76.xsag5q8.xpdmqnj.xz9dl7a.x1q0g3np.x6s0dn4.x15x8krk.xde0f50.x5a5i1n.x1obq294.x159b3zp.x80pfx3.x12dmmrz.x7nr27j.x6pnmvc.xo237n4.xjpr12u.xr9ek0c.x3nfvp2.x9f619
-! Left sidebar > Also from meta > Meta AI
-www.instagram.com#?#div.xq9evs9 > div > span:has-text(Meta AI)
-! Footer > "Meta AI" link
+! Left sidebar > Also from meta > Meta Slop
+www.instagram.com#?#div.xq9evs9 > div > span:has-text(Meta Slop)
+! Footer > "Meta Slop" link
 www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(> a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
 
 ! === Instructure Developer Documentation ===
 ! -- https://developerdocs.instructure.com/
-! Search bar - "Find the answer with AI"
+! Search bar - "Find the answer with Slop"
 developerdocs.instructure.com##[data-testid="search-ask-question"]
 
 ! === Inter Door ===
 ! Floating Chat icon
-konfigurator.interdoor.pl##.fixed:has(> [aria-label="Otwórz czat AI"])
+konfigurator.interdoor.pl##.fixed:has(> [aria-label="Otwórz czat Slop"])
 
 ! === Intuit ===
 ! -- https://ttlc.intuit.com/turbotax-support/en-us/
@@ -2509,24 +2509,24 @@ ttlc.intuit.com###chip-wrapper
 
 ! === Investing.com ===
 ! -- https://www.investing.com/
-! Navbar links "Warren" and "Stocks Picked by AI"
+! Navbar links "Warren" and "Stocks Picked by Slop"
 www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/warrenai"])
 www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/pro/propicks"])
-! Promo banner for "AI-picked stocks" (No longer used?)
+! Promo banner for "Slop-picked stocks" (No longer used?)
 www.investing.com###promo-strip:has([href^="https://www.investing.com/pro/propicks"])
 www.investing.com###main-header:has(promo-strip [href^="https://www.investing.com/pro/propicks"]) {margin-bottom: 66px !important}
-! AI buttons below InvestingPro promo
+! Slop buttons below InvestingPro promo
 www.investing.com##a[href="/pro/propicks"]
 www.investing.com##a[href="/warrenai"]
 ! Stock sidebar buttons (after scrolling down page)
 www.investing.com##[data-test="ws-warren-btn"]
 www.investing.com##[data-test="ws-propicks-btn"]
-! "Tools" section - ProPicks AI button
+! "Tools" section - ProPicks Slop button
 www.investing.com##a[href="https://www.investing.com/pro/propicks"]
-! ... menu > AI buttons (mobile only)
+! ... menu > Slop buttons (mobile only)
 www.investing.com##[data-test="mobile-ws-tab-5"]
 www.investing.com##[data-test="mobile-ws-tab-8"]
-! "ProPicks AI - Stocks picked by AI" promo
+! "ProPicks Slop - Stocks picked by Slop" promo
 www.investing.com##.order-6:has([data-test="inv-pro-strategies"])
 
 ! -- https://www.investing.com/markets/united-states
@@ -2534,10 +2534,10 @@ www.investing.com##.order-6:has([data-test="inv-pro-strategies"])
 www.investing.com##.proPromo-stripe:has([href^="https://www.investing.com/warrenai/"])
 
 ! -- https://www.investing.com/news/stock-market-news/how-durable-is-the-impact-of-the-world-cup-on-stocks-4729697
-! Stock chart - "Included in our AI-picked strategies"
+! Stock chart - "Included in our Slop-picked strategies"
 ! * TODO: Filters leave blank space.
 www.investing.com##div.transition-\[grid-template-rows\]:has([href="/pro/propicks"])
-! Stock chart - AI "Analyze" button
+! Stock chart - Slop "Analyze" button
 www.investing.com##button.sm\:w-fit:has([href="/next_/menu.svg?v=a38d740#ws-warren-active"])
 ! WarrenAI promo at end of article
 www.investing.com##[data-test="contextual-subscription-hook"]
@@ -2548,7 +2548,7 @@ www.investing.com##[data-test="contextual-subscription-hook"]
 www.investopedia.com##[data-inv-answers-widget]
 
 ! === iPon ===
-! Floating AI button
+! Floating Slop button
 ||chat.ipon.hu/widget.js$script,1p
 
 ! === iShopChangi ===
@@ -2556,35 +2556,39 @@ www.investopedia.com##[data-inv-answers-widget]
 ! Chatbot icon
 www.ishopchangi.com###chat-wrapper
 
+! === Jamf ===
+! Jamf AI Assistant in header
+*.jamfcloud.com##button[aria-label="Slop Assistant"]
+
 ! === JetBrains ===
-! Header - Products - AI TOOLS section
-www.jetbrains.com#?#[data-test-marker="Products"] [data-test$="menu-column-title"]:has-text("AI TOOLS"):upward(1)
+! Header - Products - Slop TOOLS section
+www.jetbrains.com#?#[data-test-marker="Products"] [data-test$="menu-column-title"]:has-text("Slop TOOLS"):upward(1)
 ! Header - Products - JetBrains Air promo
 www.jetbrains.com##[data-test="main-submenu-banner"]:has(> [href="/air/"])
-! Header - For Business - "AI for teams" promo
+! Header - For Business - "Slop for teams" promo
 www.jetbrains.com##[data-test="main-submenu-banner"]:has(> [href="/agentic-software-development/"])
-! Header - For Business - "AI for teams and organizations" link
+! Header - For Business - "Slop for teams and organizations" link
 www.jetbrains.com##[data-test="main-submenu-item"]:has(> [href="/agentic-software-development/"])
-! Header - Solutions - Jetbrains AI Solutions
+! Header - Solutions - Jetbrains Slop Solutions
 www.jetbrains.com##[data-test="main-submenu-item"]:has(> [href="/ai/"])
-! Footer - AI Section
-www.jetbrains.com#?#.jb-footer-catalog h2:has-text(AI):upward(.jb-footer-catalog__item)
-! Footer - AI Agents Hub
+! Footer - Slop Section
+www.jetbrains.com#?#.jb-footer-catalog h2:has-text(Slop):upward(.jb-footer-catalog__item)
+! Footer - Slop Agents Hub
 www.jetbrains.com##.jb-footer-catalog-links__item:has(> [href="/pages/ai-agents/"])
 
 ! -- https://www.jetbrains.com/ (Landing page)
 ! JetBrains Air promo
 www.jetbrains.com##div[class^="_hero_"]:has([type="button"][href="/air/"])
-! "Professional AI Coding" promo card
+! "Professional Slop Coding" promo card
 www.jetbrains.com##a[href="/business/"][class^="_card_"]
 
 ! -- https://jetbrains.com/ides/
-! "Natively integrated AI" section
+! "Natively integrated Slop" section
 www.jetbrains.com##section:has(> div > #ai)
 
 ! === Jimdo ===
 ! -- https://www.jimdo.com/
-! "Companion AI" promo section
+! "Companion Slop" promo section
 www.jimdo.com###companion
 
 ! === John Hancock ===
@@ -2592,7 +2596,7 @@ www.jimdo.com###companion
 www.johnhancock.com##.webchat
 
 ! === Jumping Rivers ===
-! Header banner - AI in production tickets
+! Header banner - Slop in production tickets
 www.jumpingrivers.com###banner[data-name="aip-2027-eb"]
 
 ! === Kagi ===
